@@ -1,0 +1,60 @@
+/* .myname{
+    width: 500px;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+.yourname{
+    width: 500px;
+    margin: 21px 0 0 0;
+    font-size: 15px;
+    padding:0 20px 0 0;
+}
+.container{
+    border:1px solid black;
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+.index{
+    display: flex;
+    justify-content: row;
+    margin-left: 50px;
+    
+    
+}
+.selectWrapper{
+    display: flex;
+    justify-content: row;
+    justify-items: end;
+    
+    
+}
+.list{
+    border-radius: 12px;
+    display: flex;
+    margin-left: 120px;
+    margin-bottom: 40px;
+    padding: 17px 40px;
+}
+.btn{
+    height: 50px;
+    width: 20%;
+    border-radius: 12px;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    border: none;
+    margin: 0 0 40px 100px;
+
+}
+input{
+    height: 30px;
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-size: 20px;  
+}
+option{
+    font-size: 17px;
+} */
