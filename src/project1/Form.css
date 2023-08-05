@@ -58,3 +58,21 @@ input{
 option{
     font-size: 17px;
 } */
+
+
+
+/* Form.css */
+.my-container {
+    padding: 20px;
+    border: 1px solid gray;
+    margin-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  /* Custom CSS for small screens (max-width: 576px) */
+  @media (max-width: 576px) {
+    .my-container {
+      padding: 10px;
+    }
+  }
+  
