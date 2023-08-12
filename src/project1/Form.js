@@ -47,7 +47,7 @@ function FormComponent() {
                 type='text'
                 value={firstName}
                 placeholder='First Name'
-                style={{marginTop:'30px',textAlign:'center'}}
+                style={{marginTop:'30px'}}
                 onChange={(e) => setFirstName(e.target.value)}
               />
             </Form.Group>
@@ -58,7 +58,7 @@ function FormComponent() {
                 type='text'
                 value={lastName}
                 placeholder='Last Name'
-                style={{marginTop:'30px',textAlign:'center'}}
+                style={{marginTop:'30px'}}
                 onChange={(e) => setLastName(e.target.value)}
               />
             </Form.Group>
@@ -68,7 +68,7 @@ function FormComponent() {
         <Row className='justify-content-center'>
           <Col xs={12} md={6}>
             <Form.Group controlId='selectedOption'>
-              <Form.Control as='select' value={selectedOption} onChange={handleChange}  style={{marginTop:'30px',textAlign:'center'}}>
+              <Form.Control as='select' value={selectedOption} onChange={handleChange}  style={{marginTop:'30px'}}>
                 <option value=''>Choose option</option>
                 <option value='number'>Phone Number</option>
                 <option value='email'>Email Address</option>
@@ -83,7 +83,7 @@ function FormComponent() {
                   type='number'
                   value={phoneNumber}
                   placeholder='Phone No'
-                  style={{marginTop:'30px',textAlign:'center'}}
+                  style={{marginTop:'30px'}}
                   onChange={(e) => setPhoneNumber(e.target.value)}
                 />
               </Form.Group>
@@ -94,7 +94,7 @@ function FormComponent() {
                   type='email'
                   value={email}
                   placeholder='Email Id'
-                  style={{marginTop:'30px',textAlign:'center'}}
+                  style={{marginTop:'30px'}}
                   onChange={(e) => setEmail(e.target.value)}
                 />
               </Form.Group>
